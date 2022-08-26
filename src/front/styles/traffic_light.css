@@ -1,0 +1,46 @@
+.environment {
+    display: inline-block;
+    margin-left: 40%;
+    margin-right: auto;
+}
+.trafficbar {
+    background-color: black;
+    margin-left: 35%;
+    height: 100px;
+    width: 20px;
+}
+.trafficlight {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.507);
+}
+
+.yellow {
+    background-color: yellow;
+}
+.purple {
+    background-color: purple;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+
+.glow {
+    box-shadow: 0px 0px 10px 10px rgba(238, 241, 187, 0.911);
+}

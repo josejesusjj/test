@@ -1,0 +1,206 @@
+/*
+    home.css: This website contains selectors only used in home.css
+
+    All pages share the styles on index.css but you should create 
+    one more css for each page that will contain the selected used 
+    on that page only (the ones not reused in other pages).
+*/
+body {
+  background-image: url("https://elviajerofeliz.com/wp-content/uploads/2020/11/mejores-playas-del-mundo-10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.title {
+  text-align: center;
+  color: #ce511f;
+}
+.name {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: xx-large;
+}
+
+.navbar {
+  text-decoration: none;
+}
+.btn-navbar {
+  background-color: #92d2cd;
+  border-radius: 10px;
+}
+
+.cardtrip {
+  font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+.text-center2 {
+  background-color: bisque;
+  height: 100px;
+}
+
+.App {
+  text-align: center;
+  width: 40em;
+  margin: auto;
+  border: #069a8e;
+  background-color: rgba(252, 252, 252, 0.728);
+}
+
+.App2 {
+  text-align: center;
+  width: 100%;
+  border: #069a8e;
+  background-color: rgba(252, 252, 252, 0.728);
+}
+.btn-actions {
+  font-size: 25px;
+  color: #214a82;
+}
+
+.label {
+  display: block;
+  font-size: larger;
+  color: #ce511f;
+  padding: 5px;
+}
+
+.input {
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.btn-user {
+  color: #ce511f;
+  background-color: #ffffff;
+  font-size: 25px;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.btn-login {
+  color: #214a82;
+  background-color: #ffffff;
+  border: 1px solid;
+  font-size: 25px;
+  border-radius: 5px;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+}
+.messages {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  display: block;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+
+.success {
+  display: block;
+  background-color: rgb(247, 255, 147);
+  color: black;
+  width: fit-content;
+  padding: 5px;
+}
+
+.card {
+  height: 150px;
+  background-color: transparent;
+}
+
+.loginPadre {
+  display: flex;
+  justify-content: center;
+}
+
+.btn1 {
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.logo {
+  filter: invert(1);
+  width: 65px;
+}
+
+.flex {
+  display: flex;
+}
+
+.information {
+  text-align: left;
+}
+
+.image {
+  text-align: center;
+}
+
+.cardname {
+  text-align: left;
+}
+
+.title-homepage {
+  color: antiquewhite;
+}
+
+.text-homepage {
+  color: antiquewhite;
+  text-align: justify;
+}
+
+.imgCardTrip {
+  height: 100px;
+}
+/* mediaquery */
+@media (max-width: 769px) {
+  .image {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .information {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .girl {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .App {
+    width: 100%;
+  }
+  .App2 {
+    width: 100%;
+  }
+  .col {
+    width: 100%;
+  }
+  .iframe {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .container {
+    width: 100%;
+    padding: 0px;
+  }
+  body {
+    width: 100%;
+  }
+}
